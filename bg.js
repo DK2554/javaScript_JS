@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const IMg_NUM = 3;
+const IMg_NUM = 5;
 function patingImage(imgNumber) {
   const image = new Image();
   image.src = `/img/${imgNumber + 1}.jpg`;
